@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(1, 215, 215);
+}
+
+.image {
+    width: 70%;
+    min-height: 80vh;
+    background: url("Images/2.jpg") center/cover fixed no-repeat;
+    position: relative;
+    border: 10px solid black;
+    border-radius: 0.4rem;
+    margin: 8vh auto;
+    box-shadow: 10px 10px 15px rgba(0,0,0,1);    
+}
+
+.left-image {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    transform: translate(-50%, -50%);
+    border: 5px solid rgb(41, 41, 41);
+    font-size: 5vh;
+    padding: 15px;
+    cursor: pointer;
+    margin-left: -9px;
+}
+
+.right-image {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    transform: translate(50%, -50%);
+    border: 5px solid rgb(41, 41, 41);
+    font-size: 5vh;
+    padding: 15px;
+    cursor: pointer;
+    margin-right: -9px;
+}
